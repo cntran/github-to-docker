@@ -1,5 +1,6 @@
-# docker-whale
+# Github Actions CI/CD Pipeline with Docker containers
 
-Run me : `docker run -p80:80 ushamandya/whale-example`
+Build: `docker build -t gh-to-docker .`
 
-Build me: `docker build -t ushamandya/whale-example .`
+Run: `docker run -p3000:80 gh-to-docker`
+
